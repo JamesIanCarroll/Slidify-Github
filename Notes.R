@@ -14,3 +14,6 @@ slidify('index.Rmd')
 browseURL('index.html')
 
 publish(title = 'Developing Data Products, Slidify Presentation', 'index.html', host = 'rpubs')
+
+library(shinyapps)
+shinyapps::deployApp("D:\\Dropbox\\Coursera\\Developing Data Products\\Shiny")
