@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pitching My Shiny App!</title>
+  <meta name="description" content="">
+  <meta name="author" content="James Carroll">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2>Introduction</h2>
+  <ol>
+<li>What does my app do?</li>
+<li>Why is it good?</li>
+<li>How can it be extended?</li>
+<li>Conclusion</li>
+</ol>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>What does my app do?</h2>
+  <ul>
+<li>Lets the user select a Factor variable and a Performance Metric</li>
+<li>The chosen variables are plotted as a Box and Whisker diagram in the first tab (example given below)</li>
+<li>The chosen variables are tabulated in the second tab</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h2>Why is it good?</h2>
+  <ul>
+<li>Provides quick, easy, interactive data visualisation</li>
+<li>Gives enhanced detail for more focused analysis</li>
+<li>Utilises a simple, intuitive design</li>
+</ul>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>How can it be extended?</h2>
+  <ul>
+<li>Example dataset can be modified to use alternatives for easy customisation</li>
+<li>Additional user input could be added for determining style of graphing</li>
+<li>Several datasets could be added to allow for user choice of which to view</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>Conclusion</h2>
+  <ul>
+<li>Great app for allowing user to visualise tables of data</li>
+<li>Simple, intuitive, interactive design</li>
+<li>Solid foundation with many avenues for extension</li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
